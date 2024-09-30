@@ -17,9 +17,20 @@ body, body > div {
   display: flex;
 }
 
-#navbar {
+#navbar, #footer {
   padding: 2em;
   justify-content: space-evenly;
+}
+
+#navbar {
+  background-color: rgba(193, 144, 144, 0.682);
+  color: white;
+  font-size: large;
+}
+
+#footer {
+  background-color: rgb(191, 154, 86);
+  color: white;
 }
 
 #main-section {
@@ -43,6 +54,12 @@ body, body > div {
   color: white;
 }
 
+.contact {
+  background-color: rgb(144, 83, 144);
+  color: white;
+}
+
 .home {
   background-color: rgb(176, 176, 101);
+  color: white;
 }
